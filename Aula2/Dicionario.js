@@ -1,12 +1,23 @@
-perfilusuario = {
-    nome: "Kayden Break",
-    idade: 17,
-    email: "KaydenBreak@gmail.com",
-    enderecos: ["Rua Vencedora, 700", "piedade, 850"],
+// Adicionado 'const' e padronizado para tudo minúsculo
+const perfilusuario = {
+    nome: "Guilherme",
+    idade: 19,
+    email: "teste123@gmail.com",
+    enderecos: ["Rua aleatória, Marcos freire, 850"],
     contaAtiva: true
 }
-console.log("Perfil do usuário:", perfilusuario)
-perfilUsuario.enderecos.push("Rua do Sol, 245")
-console.log("Novo endereço:", perfilusuario.enderecos)
-perfilUsuario.idade = 18
-console.log("Nova idade:", perfilusuario.idade)
+console.log(perfilusuario)
+
+
+perfilusuario.enderecos.push("Rua do Sol, 245")
+console.log( perfilusuario)
+
+
+perfilusuario.idade = 18
+console.log(perfilusuario)
+
+
+perfilusuario.cidade = "Jaboatão dos Guararapes"
+perfilusuario.estado = "Pernambuco"
+
+console.log(perfilusuario)
