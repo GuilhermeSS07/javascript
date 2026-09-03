@@ -1,0 +1,10 @@
+var alunos = ["maria", "Celina", "Anderson"]
+console.log(alunos)
+alunos.pop()
+console.log(alunos)
+alunos.unshift("Luiz")
+console.log(alunos)
+alunos.shift()
+console.log(alunos)
+alunos.push("Arthur")
+console.log(alunos)
